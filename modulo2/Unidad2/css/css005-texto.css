@@ -1,0 +1,27 @@
+.texto1{
+    color: brown;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.6; /*espaciado entre lineas*/
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;/*mayusculas o minusculas*/
+    letter-spacing: 1ch;/*espacio entre palabras o salto entre lineas*/
+    word-spacing: 5px;
+    white-space: nowrap;
+}
+
+.texto2{
+    color: goldenrod;
+    font-size: 52px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1; /*espaciado entre lineas*/
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;/*mayusculas o minusculas*/
+    letter-spacing: 1ch;/*espacio entre palabras o salto entre lineas*/
+    word-spacing: 4px;
+    white-space: nowrap;
+}

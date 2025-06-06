@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./css/css001_flex.css">
+        <title>Ejemplo de div</title>
+        <style>
+            .boton{
+                padding: 10px;
+                background-color: blue;
+                color: white;
+            }
+            .boton-red{
+                padding: 10px;
+                background-color: red;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Eventos Inline</h1>
+        <button onclick="alert('hola')">Click</button>
+        <br>
+        <button onclick="mostrarAlerta()">Mostrar Alerta</button>
+        <br>
+        <input type="text" oninput="console.log(this.value)">
+        <br>
+        <br>
+        <ul id="listaProductos1"></ul>
+        <h1>Eventos por addEventListener</h1>
+        <button id="boton">Click boton</button>
+        <br>
+        <input id="campo" type="text" placeholder="Escribir algo...">
+        <br>
+        <button id="btnAgregar" class="boton">Agregar producto</button>
+        <ul id="listaProductos2"></ul>
+
+        <script src="dom06-mouse-touch.js"></script>
+    </body>
+</html>
