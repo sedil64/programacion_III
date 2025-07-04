@@ -1,0 +1,17 @@
+div p{
+    color: blueviolet;
+}
+
+ul > li{
+    color: green;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:peru;
+    font-size: larger;
+}
+
+input[type="text"]{
+    border: 3px solid;
+}
